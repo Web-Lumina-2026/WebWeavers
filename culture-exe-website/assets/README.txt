@@ -1,0 +1,1 @@
+Place replacement images and artwork in this folder. Suggested names: music-cover.jpg, fit-y2k.jpg, fit-streetwear.jpg, art-digital.jpg. Use relative paths such as assets/art-digital.jpg in HTML.

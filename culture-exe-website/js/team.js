@@ -1,0 +1,2 @@
+/* Team page demo form: deliberately local, no network submission. */
+(() => {const form=document.getElementById('feedbackForm');if(!form)return;form.addEventListener('submit',e=>{e.preventDefault();const name=document.getElementById('feedbackName').value.trim();const type=document.getElementById('feedbackType').value;document.getElementById('feedbackResult').textContent=`Thanks, ${name}! Your ${type.toLowerCase()} has been staged locally. Connect a form service to actually send it.`;form.reset();});})();

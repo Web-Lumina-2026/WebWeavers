@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#111111"><title>culture.exe — Boot</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=VT323&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/desi-theme.css">
+</head>
+<body data-page="home">
+  <div class="boot-screen" id="bootScreen" aria-live="polite"><div class="boot-mark">culture<span>.exe</span></div><p id="bootLine">Checking vibes...</p><div class="boot-track"><i id="bootProgress"></i></div><small>GEN Z OPERATING SYSTEM / BUILD 2026.10</small></div>
+  <div class="grain"></div>
+  <header class="topbar"><a class="brand" href="index.html">culture<span>.exe</span><b>®</b></a><span class="status"><i></i> SYSTEM ONLINE</span><button class="mode-toggle" id="modeToggle">◐ NEON MODE</button></header>
+  <main>
+    <section class="hero home-hero">
+      <div class="hero-copy">
+        <p class="eyebrow">WELCOME TO THE TAB YOU NEVER CLOSE</p>
+        <h1 class="glitch" data-text="CULTURE IS THE CODE.">CULTURE IS<br>THE CODE.</h1>
+        <p class="hero-sub">A messy, brilliant little operating system for the things that make <em>now</em> feel like now.</p>
+        <div class="hero-actions"><a class="button button-lime" href="#explore">BOOT THE VIBE ↘</a><span class="pixel-note">NO TUTORIAL REQUIRED_</span></div>
+      </div>
+      <div class="hero-stage"><canvas id="hero3d" aria-label="Decorative 3D culture objects"></canvas><div class="stage-label label-a">LIVE / 001</div><div class="stage-label label-b">SCROLL TO EXPLORE ↓</div><div class="sticker sticker-pink">VERY<br>ONLINE</div></div>
+      <div class="ticker"><div class="ticker-track">MUSIC IS A MEMORY ✳ FIT CHECK ✳ POST IT OR IT DIDN’T HAPPEN ✳ INTERNET BRAIN ✳ ART WITH NO RULES ✳ MUSIC IS A MEMORY ✳ FIT CHECK ✳</div></div>
+    </section>
+    <section class="mandala-scroll" id="mandalaScroll" aria-hidden="true">
+      <div class="mandala-sticky">
+        <div class="scrolling-mandala"><img src="assets/mandala-cutout.png" alt=""></div>
+        <img class="scrolling-wordmark" src="assets/desi-cutout.png" alt="">
+      </div>
+    </section>
+    <section class="section intro-section" id="explore"><div class="section-head"><p class="eyebrow">DIRECTORY / 00—06</p><h2>Pick your <span>portal.</span></h2><p>Six tabs. Infinite rabbit holes. Open a file and see where the algorithm takes you.</p></div>
+      <div class="portal-grid">
+        <a class="portal-card lilac" href="music.html"><span class="file-icon">♫</span><small>01 / AUDIO</small><h3>playlist.exe</h3><p>Genres, guilty pleasures and songs that own your entire personality.</p><b>OPEN FILE ↗</b></a>
+        <a class="portal-card lime" href="fashion.html"><span class="file-icon">✳</span><small>02 / STYLE</small><h3>fit.exe</h3><p>Outfit lore, thrift finds and the sacred art of “where’d you get that?”</p><b>OPEN FILE ↗</b></a>
+        <a class="portal-card pink" href="memes.html"><span class="file-icon">:')</span><small>03 / HUMOUR</small><h3>meme.exe</h3><p>Shared brain cells, reaction images and jokes with a 48-hour lifespan.</p><b>OPEN FILE ↗</b></a>
+        <a class="portal-card yellow" href="art.html"><span class="file-icon">▧</span><small>04 / VISUALS</small><h3>gallery.exe</h3><p>Internet-made art, strange little worlds and happy accidents.</p><b>OPEN FILE ↗</b></a>
+        <a class="portal-card cream" href="trends.html"><span class="file-icon">↗</span><small>05 / TIMELINE</small><h3>trending.exe</h3><p>A browser-history speedrun through the moments we all remember.</p><b>OPEN FILE ↗</b></a>
+        <a class="portal-card dark-card" href="team.html"><span class="file-icon">⌘</span><small>06 / AUTHORS</small><h3>credits.exe</h3><p>Meet the humans behind the tabs. Feedback is a feature, not a bug.</p><b>OPEN FILE ↗</b></a>
+      </div>
+    </section>
+    <section class="manifesto"><span class="manifesto-stamp">USER GENERATED<br>REALITY</span><p>WE ARE NOT A GENERATION.<br><span>WE’RE A GROUP CHAT WITH WIFI.</span></p><small>SCROLL CULTURE / SAVE YOURSELF A TAB</small></section>
+  </main>
+  <footer class="taskbar"><a class="task-home active" href="index.html">⌂ <span>boot.exe</span></a><a href="music.html">♫ <span>playlist.exe</span></a><a href="fashion.html">✳ <span>fit.exe</span></a><a href="memes.html">:') <span>meme.exe</span></a><a href="art.html">▧ <span>gallery.exe</span></a><a href="trends.html">↗ <span>trending.exe</span></a><a href="team.html">⌘ <span>credits.exe</span></a><div class="task-spacer"></div><button id="soundToggle" title="Toggle UI sounds">♫ <span>SOUND OFF</span></button><span class="clock" id="clock">11:11</span></footer>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.min.js"></script><script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script><script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script><script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.42/bundled/lenis.min.js"></script><script src="js/main.js"></script><script src="js/home.js"></script><script src="js/mandala-scroll.js"></script>
+</body></html>
