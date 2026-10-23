@@ -4,7 +4,7 @@
 
 **culture.exe** is a multi-page, scroll-driven, interactive website celebrating Gen Z culture: **music, fashion, memes, art, and internet trends**. It is styled like a retro operating system, with a desi pop twist: a mandala, an auto-rickshaw, a custom sun cursor, and a warm desi palette. It is built with plain HTML, CSS, and JavaScript, with no build step.
 
-Built for **[Web Lumina]** organised by **[Deviators]**at **[Dronacharya College Of Engineering]**.
+Built for **[Web Lumina]** organised by **[Deviators Club]** at **[Dronacharya College Of Engineering]**.
 
 🔗 **Live demo:** https://chipper-tartufo-31bca0.netlify.app
 
