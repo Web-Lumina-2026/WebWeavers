@@ -34,10 +34,9 @@ Classic computer nostalgia (taskbar, boot screen, window-style pages, glitchy de
 - Light/dark **theme toggle**
 - Optional **sound** (off by default)
 - Smooth scrolling with **Lenis** and scroll reveals with **GSAP/ScrollTrigger**
-- Custom **sun cursor**
+- Custom **cat cursor**
 - **Meme generator** that draws a template with your text and saves it as a PNG
 - **Art gallery** viewer driven by data attributes on each artwork
-- **Konami code** easter egg 🥚 (`↑ ↑ ↓ ↓ ← → ← → B A`)
 - Responsive layout and **reduced-motion** support
 
 ## 🛠️ Tech Stack
@@ -87,31 +86,6 @@ python -m http.server 8000
 
 Then open `http://localhost:8000`.
 
-### Deploy for free
-
-**GitHub Pages**
-1. Create a GitHub repository and upload the extracted files (keep the folder structure).
-2. Go to **Settings → Pages**.
-3. Under *Build and deployment*, choose **Deploy from a branch**, select `main` and `/ (root)`, then save.
-4. Wait for the published URL to appear. `index.html` is the entry page.
-
-**Netlify**
-1. Sign in to Netlify and choose **Add new site → Deploy manually**.
-2. Drag the extracted project folder into the deploy area, or connect your GitHub repository.
-3. Netlify publishes the static site and gives you a shareable URL.
-
-## 🎨 Customization
-
-- **Colors:** edit the shared desi palette in `css/desi-theme.css` under `:root`.
-- **Text and content:** change names, captions, genres, trend text, and team bios directly in each HTML file.
-- **Images:** replace placeholder art blocks with
-  ```html
-  <img src="assets/your-image.jpg" alt="Description">
-  ```
-  Keep image files in `assets/` and use relative paths.
-- **Art gallery:** update the `data-title`, `data-artist`, and `data-description` attributes on each `.art-piece` button, and update the artwork list in `js/art.js` when replacing images.
-- **Music and memes:** the music player and meme wall are ready for your audio and meme artwork. Add the files under `assets/` to connect them.
-- **Forms:** the meme generator keeps feedback local, and the team form does not send or store any data. Connect a form backend or service if you need submissions.
 
 ## 📝 Notes
 
